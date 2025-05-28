@@ -1,0 +1,1 @@
+# cdk-aspects-library-encryption-enforcement
