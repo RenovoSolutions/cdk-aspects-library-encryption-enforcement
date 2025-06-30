@@ -2,7 +2,8 @@ import { awscdk, javascript } from 'projen';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Renovo Solutions',
   authorAddress: 'webmaster+cdk@renovo1.com',
-  cdkVersion: '2.199.0',
+  cdkVersion: '2.202.0',
+  jsiiVersion: '^5.8.0',
   defaultReleaseBranch: 'master',
   name: '@renovosolutions/cdk-aspects-library-encryption-enforcement',
   description: 'A library of CDK aspects that enforce encryption on AWS resources.',
@@ -37,7 +38,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   eslint: true,
   publishToPypi: {
     distName: 'renovosolutions.aws-cdk-aspects-encryption-enforcement',
-    module: 'aspects_encryption_enforcement',
+    module: 'renovosolutions_aspects_encryption_enforcement',
   },
   publishToNuget: {
     dotNetNamespace: 'renovosolutions',
