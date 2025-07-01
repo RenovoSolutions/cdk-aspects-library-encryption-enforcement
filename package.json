@@ -40,29 +40,29 @@
   "devDependencies": {
     "@stylistic/eslint-plugin": "^2",
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.15.24",
+    "@types/node": "^22.15.34",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "aws-cdk-lib": "2.199.0",
+    "aws-cdk-lib": "2.202.0",
     "commit-and-tag-version": "^12",
     "constructs": "10.0.5",
     "eslint": "^9",
-    "eslint-import-resolver-typescript": "^4.4.1",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
     "jest": "^29.7.0",
     "jest-junit": "^16",
-    "jsii": "~5.6.0",
+    "jsii": "^5.8.0",
     "jsii-diff": "^1.112.0",
     "jsii-docgen": "^10.5.0",
     "jsii-pacmak": "^1.112.0",
-    "jsii-rosetta": "~5.6.0",
-    "projen": "^0.92.8",
-    "ts-jest": "^29.3.4",
+    "jsii-rosetta": "^5.8.0",
+    "projen": "^0.94.0",
+    "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.199.0",
+    "aws-cdk-lib": "^2.202.0",
     "constructs": "^10.0.5"
   },
   "keywords": [
@@ -133,7 +133,7 @@
     "targets": {
       "python": {
         "distName": "renovosolutions.aws-cdk-aspects-encryption-enforcement",
-        "module": "aspects_encryption_enforcement"
+        "module": "renovosolutions_aspects_encryption_enforcement"
       },
       "dotnet": {
         "namespace": "renovosolutions",
